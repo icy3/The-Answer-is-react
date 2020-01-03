@@ -6,7 +6,7 @@ const Gameboard = props => {
   if(props.currentQuestion.question){
   return (
     <div data-testid="gameboard" id='question'>
-      {/* was a question clicked?  */}
+      {/* was a question clicked? and the 'question' was changed from the ternary operator for simplicity*/}
       {/* Yes? Show clue */}
       {/* No? Show Categories */}
     </div>

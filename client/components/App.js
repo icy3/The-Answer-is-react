@@ -15,6 +15,7 @@ export default class App extends Component {
       score: 0
     };
     this.selectQuestion = this.selectQuestion.bind(this);
+    // this step is necessary to allow the THIS keyword to stay bounded
   }
   componentDidMount() {
     // Getting data from an external API
